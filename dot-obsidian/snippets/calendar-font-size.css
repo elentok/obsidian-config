@@ -1,0 +1,7 @@
+.calendar thead th {
+  font-size: 12px !important;
+}
+
+.calendar .day {
+  font-size: 18px !important;
+}

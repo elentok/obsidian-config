@@ -1,0 +1,14 @@
+{
+  "cssTheme": "Cupertino",
+  "theme": "system",
+  "baseFontSize": 20,
+  "accentColor": "#5c9ef5",
+  "interfaceFontFamily": "Avenir Next Condensed,Futura,Avenir",
+  "textFontFamily": "Avenir Next Condensed,Futura",
+  "enabledCssSnippets": [
+    "minimal-fix-list-bullet",
+    "calendar-font-size",
+    "cupertino-fixes"
+  ],
+  "showRibbon": true
+}

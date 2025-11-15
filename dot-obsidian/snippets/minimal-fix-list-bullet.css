@@ -1,0 +1,11 @@
+.cm-formatting-list-ul, .cm-formatting-list-ol {
+  /* padding-inline-start: calc(var(--list-padding-inline-start) / 2); */
+  /* padding-inline-end: calc(var(--list-padding-inline-start) / 2); */
+  padding-inline-start: calc(var(--list-padding-inline-start));
+  padding-inline-end: calc(var(--list-padding-inline-start) / 2);
+}
+
+/* .HyperMD-list-line.HyperMD-list-line-2.cm-line { */
+/*   text-indent: -30px !important; */
+/*   padding-inline-start: 40px !important; */
+/* } */
