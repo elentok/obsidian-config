@@ -45,10 +45,28 @@ map <Space>u <C-u>
 map <Space>d <C-d>
 
 imap jk <Esc>
+imap jj <Esc>
 vmap . <Esc>
 map gl $
 map ge G
-map vv V
+
+" navigate visual lines rather than logical ones
+nnoremap j gj
+nnoremap k gk
+nnoremap I g0i
+nnoremap A g$a
+
+" undo/redo consistently on one key
+nnoremap U <C-r>
+
+" vc goes to visual block mode
+vnoremap c <C-v>
+
+" vv goes to visual line mode
+vnoremap v V
+
+exmap toggleBold obcommand editor:toggle-bold
+noremap <Space>b :toggleBold<cr>
 
 " Yank to system clipboard
 set clipboard=unnamed
@@ -58,3 +76,5 @@ exmap togglefold obcommand editor:toggle-fold
 nmap zo :togglefold<CR>
 nmap zc :togglefold<CR>
 nmap za :togglefold<CR>
+
+
